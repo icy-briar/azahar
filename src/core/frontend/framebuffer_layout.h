@@ -45,7 +45,7 @@ struct FramebufferLayout {
      */
     u32 GetScalingRatio() const;
 
-    static float EmulationAspectRatio(Settings::AspectRatio aspect, float window_aspect_ratio);
+    static float GetAspectRatioValue(Settings::AspectRatio aspect_ratio);
 };
 
 /**
